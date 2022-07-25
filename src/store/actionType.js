@@ -1,0 +1,3 @@
+export const GET_BLOG_LOADING = "GET_BLOC_LOADING";
+export const GET_BLOG_SUCCESS = "GET_BLOC_SUCCESS";
+export const GET_BLOG_ERROR = "GET_BLOC_ERROR";
