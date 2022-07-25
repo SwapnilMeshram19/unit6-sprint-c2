@@ -25,7 +25,7 @@ export const reducer=(state=initialState,action)=>{
                     ...state.blogs,
                     loading:false,
                     error:false,
-                    blogs:action.payload
+                    data:action.payload
                 }
             }
         case GET_BLOG_ERROR:
